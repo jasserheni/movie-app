@@ -6,7 +6,10 @@ img {
   width: 470px;
   height: 470px;
 }
-
+.rateSerch {
+  font-size: 40px;
+  color: #fae100;
+}
 .searchC {
   display: flex;
   justify-content: center;
@@ -15,7 +18,7 @@ img {
 
 .sear {
   border-radius: 500px;
-  width: 350px;
+  width: 400px;
   height: 40px;
   font-size: larger;
 }
@@ -69,7 +72,7 @@ img {
   float: left;
   background: #407a78;
   height: 400px;
-  border-radius: 60px;
+  border-radius: 40px;
 }
 
 h1 {
@@ -77,7 +80,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   text-align: left;
-  margin: 10px;
+  margin: 25px;
 }
 ul {
   list-style-type: none;
@@ -118,10 +121,15 @@ li {
 #block {
   display: flex;
   flex-direction: column;
-  background-color: azure;
 }
 .Modal-btn {
   height: 40px;
-  width: 70px;
+  width: 190px;
   background-color: azure;
+}
+.Modal-btn:hover {
+  background-color: #51b9b6;
+}
+label {
+  font-size: medium;
 }

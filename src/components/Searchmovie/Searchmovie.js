@@ -8,7 +8,10 @@ const SearchMovie = ({ setNameSearch, ratingSearch, setRatingSearch }) => {
   return (
     <div>
       <div className="searchC">
-        <input className="sear"
+      
+
+       
+      <input className="sear"
           type="text"
           placeholder="Type movie name "
           onChange={(e) => setNameSearch(e.target.value)}
@@ -16,6 +19,7 @@ const SearchMovie = ({ setNameSearch, ratingSearch, setRatingSearch }) => {
         <div className="rateSerch">
           <Rate rating={ratingSearch} setRatingSearch={setRatingSearch} />
         </div>
+    
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-
+import {BrowserRouter as Router,Route, Switch,Link} from 'react-router-dom';
 import { Moviedata } from './components/Moviedata';
 import SearchMovie from './components/Searchmovie/Searchmovie';
 import MoviesList from './components/MovieList/MoviesList';
 import AddMovie from './components/Addmovie/Addmovie';
-
+import Moviedes from './components/Moviedes';
 import './App.css';
 
 function App() {
@@ -18,21 +18,42 @@ function App() {
   };
   
   return (
-    <div className="App">
-      <SearchMovie
+   
+   <div className="App">
+    <Router>
+     
+<Link to="/home" ><button> Home </button></Link>
+      
+        <Switch>
+        <Route exact path="/home" component={SearchMovie}>
+        <SearchMovie
         setNameSearch={setNameSearch}
         ratingSearch={ratingSearch}
         setRatingSearch={setRatingSearch}
       />
-      <MoviesList
+  
+              <MoviesList
         moviesList={moviesList}
         nameSearch={nameSearch}
         ratingSearch={ratingSearch}
-      />
+      /> 
       <div style={{ display: 'flex', justifyContent: 'center' }}>
         <AddMovie addNewMovie={addNewMovie} />
       </div>
+      </Route>
+      <Route  path='/moviedscription/:movieId'  component={Moviedes}/>
+     
+      </Switch>
+     
+     
+     
+     
+     
+     
+      </Router>
+     
     </div>
+    
   );
 }
 

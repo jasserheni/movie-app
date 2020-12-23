@@ -1,11 +1,11 @@
 import React from 'react';
-
+import {Link} from "react-router-dom";
 import Rate from '../Rate';
 
 
 
 const MovieCard = ({
-  movie: { name, date, rating, image, type, description },
+  movie: { name, date, rating, image, type, description,video,id },
 }) => {
   return (
     <div className="card">
@@ -26,9 +26,10 @@ const MovieCard = ({
         </div>
         <div className="card_right__review">
           <p>{description}</p>
-          
+         </div>
+         <div className="card_right__button">
+          <Link to={`/moviedscription/${id}`}> <h2>Movie description</h2> </Link>
         </div>
-        
       </div>
     </div>
   );
