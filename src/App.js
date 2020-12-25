@@ -22,7 +22,7 @@ function App() {
    <div className="App">
     <Router>
      
-<Link to="/home" ><button> Home </button></Link>
+<Link to="/home" ><button className='btns'> Home </button></Link>
       
         <Switch>
         <Route exact path="/home" component={SearchMovie}>

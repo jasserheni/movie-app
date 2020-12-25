@@ -28,7 +28,7 @@ const MovieCard = ({
           <p>{description}</p>
          </div>
          <div className="card_right__button">
-          <Link to={`/moviedscription/${id}`}> <h2>Movie description</h2> </Link>
+          <Link  className="des" to={`/moviedscription/${id}`}> <p>Movie description</p> </Link>
         </div>
       </div>
     </div>

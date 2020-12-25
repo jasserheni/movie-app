@@ -9,7 +9,7 @@ export const Moviedata = [
          date:'2020',
          type:"Action | Drama",
          description:"Une équipe soudée de mercenaires immortels, dirigée par la redoutable Andy, lutte depuis des siècles pour protéger les humains.",
-         video:'https://youtu.be/aK-X2d0lJ_s',
+         video:'https://www.youtube.com/embed/aK-X2d0lJ_s',
     },
 
     {  id: 2 ,
@@ -19,6 +19,7 @@ export const Moviedata = [
         date:'2020',
         type:'Action',
         description:"Tyler Rake est un mercenaire intrépide qui travaille dans l'ombre. Il a été envoyé au Bangladesh par un puissant caïd mafieux incarcéré, pour sauver son fils qui a été enlevé. ",
+        video:'https://www.youtube.com/embed/V95ZyU3QMic',
     },
 
     {  id: 3 ,
@@ -28,6 +29,7 @@ export const Moviedata = [
         date:'2020',
         type:'Action | sci fi',
         description:"Qu'êtes-vous prêt à risquer pour cinq minutes de pouvoirs extraordinaires ? Dans les rues de La Nouvelle-Orléans, la rumeur commence à circuler à propos d'une pilule mystérieuse qui libère des super-pouvoirs différents selon chaque personne",
+        video:"https://www.youtube.com/embed/xw1vQgVaYNQ",
     },
 
     {  id: 4 ,
@@ -37,6 +39,7 @@ export const Moviedata = [
         date:'2020',
         type:'Action | Comedy',
         description:"Spenser est un ancien flic, qui décide de reprendre du service dans les bas-fonds de Boston lorsqu 'il découvre la vérité sur un complot tordu ainsi qu'un meurtre qui a fait toutes les unes des journaux en raison de son atrocité",
+        video:"https://www.youtube.com/embed/bgKEoHNi3Uc",
     },
     {  id: 5 ,
         image :'https://static.metacritic.com/images/products/movies/9/5a9fc67693a1419235f18a930f89960f.jpg',
@@ -45,6 +48,7 @@ export const Moviedata = [
         date:'2020',
         type:'Comédie | Horreur',
         description:"À Salem, dans le Massachusetts, Hubie, un employé de restaurant, est chargé de surveiller la ville le soir d'Halloween ",
+        video:"https://www.youtube.com/embed/kY3SuNvqQPw",
     },
     {  id:6,
         image :'https://fr.web.img6.acsta.net/pictures/20/09/14/07/20/3234061.jpg',
@@ -53,6 +57,7 @@ export const Moviedata = [
         date:'2020',
         type:"Drama",
         description:"Les Sept de Chicago est un film américain réalisé par Aaron Sorkin, sorti en 2020 sur le service Netflix. ",
+        video:"https://www.youtube.com/embed/nH79C2udi5U",
     }
 
 ]
